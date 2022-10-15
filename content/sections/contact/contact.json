@@ -1,10 +1,10 @@
 {
-  "name": "Reach out to me via email:",
+  "name": "Get in touch with me via email:",
   "email": "rickey@rguo.dev",
-  "description": "Have a job opportunity or just a question?",
+  "description": "Have a job opportunity or just want to say hi?",
   "image": {
     "src": "../../images/profile.jpeg",
-    "alt": "Gatsby Logo"
+    "alt": "profile pic"
   },
   "socialProfiles": {
     "from": ["LinkedIn", "Github", "Mail"],

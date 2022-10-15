@@ -2,7 +2,7 @@
   "intro": "Hello",
   "heroPhoto": {
     "src": "",
-    "alt": "My Photo"
+    "alt": "Hero photo"
   },
   "image": {
     "src": "../../images/waving-hand.png",
@@ -14,7 +14,7 @@
     "highlight": "the Web",
     "suffix": "."
   },
-  "description": "Here are some ways to find me online:",
+  "description": "Here are some ways to find me:",
   "socialProfiles": {
     "from": ["LinkedIn", "Github", "Mail"],
     "showIcons": true  }
