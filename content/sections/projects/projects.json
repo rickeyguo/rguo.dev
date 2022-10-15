@@ -2,47 +2,114 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "E-commerce Drone Web Store",
+      "title": "Drone Depot",
+      "description": " This was built using Next.js with React Context for global state management across components like Product, Cart etc. Sanity was uitilized to store product details and manage content models on the backend. Stripe was integrated to enable shopping cart checkout with payment and shipping functionalities.",
+      "tags": ["Next.js", "Sanity", "Stripe"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "src": "../../images/drone-depot.jpg",
+        "alt": "drone depot screenshot",
+        "linkTo": "https://drone-depot.vercel.app"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/rickeyguo/drone-depot"
         },
         {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://drone-depot.vercel.app"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "Web Music Streaming Player",
+      "title": "Streamify",
+      "description": "This was created in React.js and styled using Tailwind CSS to be mobile-friendly. Shazam Core API was integrated to search, filter, and stream millions of songs across 14 genres. Functional React components were implemented and reused: Song Card, Top Chart, Top Artist, Artist Details, and Search.",
+      "tags": ["React.js", "Tailwind CSS", "Shazam"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/streamify.jpg",
+        "alt": "streamify screenshot",
+        "linkTo": "https://streamify-rguo.netlify.app/"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/rickeyguo/streamify"
+        },
+        {
+          "type": "external",
+          "url": "https://streamify-rguo.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": " Decentralized Cryptocurrency Exchange",
+      "title": "Drone Depot",
+      "description": "React.js, Tailwind, and Ethers.js were used to implement the Exchange, AmountIn/AmountOut, and Balance components.  Factory/router smart contracts were created in CRANQ using Uniswap V2 protocol before deploying to Goerli testnet. The frontend was connected to the deployed smart contracts using web3.js and integrated with MetaMask using usedDapp. This app was tested by minting two ERC-20 tokens and creating a liquidity pool before swapping the tokens on the exchange.",
+      "tags": ["React.js", "web3.js", "Ethers.js"],
+      "image": {
+        "src": "../../images/rgswap.jpg",
+        "alt": "rgswap screenshot",
+        "linkTo": "https://rgswap.netlify.app"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/rickeyguo/rgswap"
+        },
+        {
+          "type": "external",
+          "url": "https://rgswap.netlify.app"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "NFT Bidding Mobile App",
+      "title": "OpenPond",
+      "description": "This was built in React Native with two main screens: Home.js contains the list of NFT cards and Details.js displays each NFT.  The UI was organized into 7 components that are reused across the two screens. A search bar was implemented to filter the list of cards based on search terms",
+      "tags": ["React Native"],
+      "image": {
+        "src": "../../images/OpenPond.jpeg",
+        "alt": "OpenPond screenshot",
+        "linkTo": "https://expo.dev/@rickeyguo/OpenPond"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/rickeyguo/openpond"
+        },
+        {
+          "type": "external",
+          "url": "https://expo.dev/@rickeyguo/OpenPond"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Proof of Delivery Downloader",
+      "title": "FedEx Scraper",
+      "description": "This was used to download thousands of Proof of Delivery documents from FedEx website based on given tracking numbers. It was built using Puppeteer and Node.js to simulate mouse and keyboard inputs on the webpage before saving the PDF locally.",
+      "tags": ["Puppeteer", "Node.js"],
+      "image": {
+        "src": "../../images/fedex-scraper.jpg",
+        "alt": "fedex scraper screenshot",
+        "linkTo": "https://github.com/rickeyguo/fedex-scraper"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/rickeyguo/fedex-scraper"
         }
       ]
     }
   ],
   "button": {
-    "visible": true,
+    "visible": false,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": "https://github.com/rickeyguo"
   }
 }
