@@ -20,8 +20,7 @@
     "logo": { "text": "rguo.dev" },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
-        { "label": "Projects", "url": "/#projects" }
+        { "label": "About", "url": "/#about" }
       ],
       "ctaButton": {
         "openNewTab": true,
